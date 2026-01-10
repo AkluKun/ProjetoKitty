@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(250, 174, 212);
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    background-color:#FD88AE;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+nav .comeco{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .fim{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 10vh;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #FDE7EF;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    background-color: #FEFEFE;
+    border: 3px dotted rgb(247, 96, 189);
+    margin: 50px;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card h3{
+    display: flex;
+    background-color: rgb(255, 57, 179);
+    color: white;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.card img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+button{
+    display: flex;
+    background-color: #FB6B93;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 35px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.containerBlog h3{
+    display: flex;
+    color: #F65B85;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBlog{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #FEDAEA;
+    margin: 50px;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBlog img{
+    display: flex;
+    height: 60%;
+    margin: 10px;
+    border: 2px dotted white;
+}
+
+.cardBlog h2{
+    color: #DD7099;
+}
