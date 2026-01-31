@@ -1,16 +1,17 @@
-body{
+/* body{
     background: #FD88AE;
-    background: linear-gradient(180deg, #fd88ae 0%, #fde7ef 20%, #f07ab5 100%);
-}
+    background: linear-gradient(180deg, #fd88ae 0%, #fde7ef 30%, #f07ab5 100%);
+} */
 
 header{
     display: flex;
-    height: 12vh;
-    /* background-color:#FD88AE; */
+    height: 16vh;
+    background-color:#ffa8c3;
     color: white;
     font-size: 30px;
     font-weight: bold;
     justify-content: space-between;
+
 }
 
 nav{
@@ -47,8 +48,18 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
 ul li{
     list-style: none;
+}
+
+main{
+    background-color: #fdc4d6;
+    padding-top: 30px;
 }
 
 main img{
@@ -71,7 +82,7 @@ main img{
     width: 280px;
     height: 380px;
     background-color: #FEFEFE;
-    border: 3px dotted #f760bd;
+    border: 3px solid #f760bd;
     margin: 50px;
     flex-direction: column;
     border-radius: 20px;
@@ -89,6 +100,8 @@ main img{
     justify-content: center;
     align-items: center;
     padding: 5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .card img{
@@ -108,7 +121,8 @@ main img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px 0 10px;
+    margin: 0 5%;
+    text-align: center;
 }
 
 button{
@@ -125,6 +139,7 @@ button{
     margin: 10px;
 
 }
+
 .blog {
     display: flex;
     justify-content: center;
@@ -133,11 +148,14 @@ button{
 
 .containerBlog{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 50vh;
+    width: 85%;
+    height: 72vh;
     background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 15px auto 40px auto;
 }
 
 .containerBlog h3{
@@ -147,14 +165,23 @@ button{
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+}
+
+.containerCard{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardBlog{
     display: flex;
-    width: 500px;
-    height: 250px;
+    width: 420px;
+    height: 370px;
     background-color: #FEDAEA;
-    margin: 50px;
+    margin: auto 40px;
+    margin-bottom: 30px;
     flex-direction: column;
     border-radius: 20px;
     justify-content: center;
@@ -163,11 +190,31 @@ button{
 
 .cardBlog img{
     display: flex;
-    height: 60%;
-    margin: 10px;
-    border: 2px dotted white;
+    width: 90%;
+    height: 70%;
+    margin: 15px auto;
+    border: 5px dashed white;
+    border-radius: 20px;
 }
 
 .cardBlog h2{
     color: #DD7099;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.cardBlog p{
+    font-size: 18px;
+    margin: 5px auto;
+
+}
+
+footer{
+    display: flex;
+    height: 10vh;
+    background-color: #f87ba3;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
