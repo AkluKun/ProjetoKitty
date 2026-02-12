@@ -1,0 +1,23 @@
+@font-face{
+   font-family: Caveat;
+   src: url(fonts/Caveat_Brush/CaveatBrush-Regular.ttf);
+}
+@font-face{
+    font-family: Schoolbell;
+    src: url(fonts/Schoolbell/Schoolbell-Regular.ttf);
+}
+
+@font-face{
+    font-family: Imperial;
+    src: url(fonts/Imperial_Script/ImperialScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Story;
+    src: url(fonts/Story_Script/StoryScript-Regular.ttf);
+}
+
+@font-face{
+    font-family: Rouge;
+    src: url(fonts/Rouge_Script/RougeScript-Regular.ttf);
+}
